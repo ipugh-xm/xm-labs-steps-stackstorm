@@ -41,7 +41,8 @@ The **StackStorm - Post Webhook** step is now available in your custom steps. So
 ### Inputs
 | Name  | Required? | Min | Max | Help Text | Default Value | Multiline |
 | ----- | ----------| --- | --- | --------- | ------------- | --------- |
-| Api-Key | Yes | 0 | 2000 | The Auth Token used in the header | | No |
+| Api Key | Yes | 0 | 2000 | The Auth Token used in the header | | No |
+| Body | Yes | 0 | 2000 | The Body of the POST Request | | No |
 | Path | Yes | 0 | 2000 | Path for the webhook (everything after `/webhooks/`) | | No |
 
 
